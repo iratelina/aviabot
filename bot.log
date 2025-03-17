@@ -1,0 +1,203 @@
+2025-03-17 16:36:03 - [INFO] - Бот успешно запущен
+2025-03-17 16:36:03 - [INFO] - Start polling
+2025-03-17 16:36:03 - [INFO] - Run polling for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:37:05 - [INFO] - Update id=317271061 is handled. Duration 578 ms by bot id=7258438370
+2025-03-17 16:37:18 - [INFO] - Update id=317271062 is handled. Duration 140 ms by bot id=7258438370
+2025-03-17 16:37:38 - [INFO] - Polling stopped
+2025-03-17 16:37:38 - [INFO] - Polling stopped for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:37:45 - [INFO] - Бот успешно запущен
+2025-03-17 16:37:45 - [INFO] - Start polling
+2025-03-17 16:37:46 - [INFO] - Run polling for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:37:47 - [INFO] - Update id=317271063 is handled. Duration 420 ms by bot id=7258438370
+2025-03-17 16:37:51 - [INFO] - Update id=317271064 is handled. Duration 125 ms by bot id=7258438370
+2025-03-17 16:38:00 - [INFO] - Update id=317271065 is not handled. Duration 281 ms by bot id=7258438370
+2025-03-17 16:38:00 - [ERROR] - Cause exception while process update id=317271065 by bot id=7258438370
+NameError: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Dev\aviabot\modules\handlers.py", line 46, in find_tickets
+    await asyncio.sleep(3)
+NameError: name 'asyncio' is not defined
+2025-03-17 16:38:47 - [INFO] - Polling stopped
+2025-03-17 16:38:47 - [INFO] - Polling stopped for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:38:56 - [INFO] - Бот успешно запущен
+2025-03-17 16:38:56 - [INFO] - Start polling
+2025-03-17 16:38:56 - [INFO] - Run polling for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:39:05 - [INFO] - Update id=317271066 is handled. Duration 3672 ms by bot id=7258438370
+2025-03-17 16:45:45 - [INFO] - Polling stopped
+2025-03-17 16:45:45 - [INFO] - Polling stopped for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:45:51 - [INFO] - Бот успешно запущен
+2025-03-17 16:45:51 - [INFO] - Start polling
+2025-03-17 16:45:51 - [INFO] - Run polling for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:46:03 - [INFO] - Update id=317271067 is not handled. Duration 47 ms by bot id=7258438370
+2025-03-17 16:46:03 - [ERROR] - Cause exception while process update id=317271067 by bot id=7258438370
+KeyError: 271336046
+Traceback (most recent call last):
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Dev\aviabot\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Dev\aviabot\modules\handlers.py", line 60, in get_info
+    step = user_data[user_id].get("step")
+KeyError: 271336046
+2025-03-17 16:48:14 - [INFO] - Update id=317271068 is handled. Duration 4062 ms by bot id=7258438370
+2025-03-17 16:48:17 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:48:17 - [INFO] - Update id=317271069 is handled. Duration 1375 ms by bot id=7258438370
+2025-03-17 16:48:34 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:48:35 - [INFO] - Update id=317271070 is handled. Duration 1327 ms by bot id=7258438370
+2025-03-17 16:48:47 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:48:47 - [INFO] - Сообщение отправлено
+2025-03-17 16:48:47 - [INFO] - Update id=317271071 is handled. Duration 1390 ms by bot id=7258438370
+2025-03-17 16:51:00 - [INFO] - Polling stopped
+2025-03-17 16:51:00 - [INFO] - Polling stopped for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:51:07 - [INFO] - Бот успешно запущен
+2025-03-17 16:51:07 - [INFO] - Start polling
+2025-03-17 16:51:07 - [INFO] - Run polling for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:51:12 - [INFO] - Update id=317271072 is handled. Duration 422 ms by bot id=7258438370
+2025-03-17 16:51:20 - [INFO] - Update id=317271073 is handled. Duration 3405 ms by bot id=7258438370
+2025-03-17 16:51:24 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:51:24 - [INFO] - Update id=317271074 is handled. Duration 1921 ms by bot id=7258438370
+2025-03-17 16:51:29 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:51:29 - [INFO] - Update id=317271075 is handled. Duration 905 ms by bot id=7258438370
+2025-03-17 16:51:34 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:51:34 - [INFO] - Сообщение об авиабилетах отправлено
+2025-03-17 16:51:34 - [INFO] - Update id=317271076 is handled. Duration 1702 ms by bot id=7258438370
+2025-03-17 16:51:51 - [INFO] - Update id=317271077 is handled. Duration 3265 ms by bot id=7258438370
+2025-03-17 16:51:53 - [WARNING] - IATA-код не найден для 'ааоаооаадад'
+2025-03-17 16:51:53 - [WARNING] - Город 'ааоаооаадад' не найден
+2025-03-17 16:51:53 - [INFO] - Update id=317271078 is handled. Duration 577 ms by bot id=7258438370
+2025-03-17 16:52:25 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:52:26 - [INFO] - Update id=317271079 is handled. Duration 1797 ms by bot id=7258438370
+2025-03-17 16:52:29 - [WARNING] - IATA-код не найден для 'хахахахахап'
+2025-03-17 16:52:29 - [WARNING] - Город 'хахахахахап' не найден
+2025-03-17 16:52:30 - [INFO] - Update id=317271080 is handled. Duration 921 ms by bot id=7258438370
+2025-03-17 16:52:34 - [WARNING] - Города отправления и прибытия совпадают
+2025-03-17 16:52:34 - [INFO] - Update id=317271081 is handled. Duration 109 ms by bot id=7258438370
+2025-03-17 16:52:39 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:52:39 - [INFO] - Update id=317271082 is handled. Duration 952 ms by bot id=7258438370
+2025-03-17 16:52:45 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:52:45 - [INFO] - Сообщение об авиабилетах отправлено
+2025-03-17 16:52:45 - [INFO] - Update id=317271083 is handled. Duration 1500 ms by bot id=7258438370
+2025-03-17 16:52:52 - [INFO] - Update id=317271084 is handled. Duration 140 ms by bot id=7258438370
+2025-03-17 16:53:00 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:01 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:01 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:02 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:02 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:03 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:04 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:04 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:05 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:05 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:06 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:06 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:07 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:53:07 - [INFO] - Сообщение о самых популярных направлениях отправлено
+2025-03-17 16:53:07 - [INFO] - Update id=317271085 is handled. Duration 8187 ms by bot id=7258438370
+2025-03-17 16:54:33 - [INFO] - Polling stopped
+2025-03-17 16:54:33 - [INFO] - Polling stopped for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:54:40 - [INFO] - Бот успешно запущен
+2025-03-17 16:54:40 - [INFO] - Start polling
+2025-03-17 16:54:40 - [INFO] - Run polling for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 16:54:42 - [INFO] - Update id=317271086 is handled. Duration 577 ms by bot id=7258438370
+2025-03-17 16:54:49 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:51 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:51 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:52 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:52 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:53 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:54 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:55 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:55 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:55 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:56 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:56 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:56 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 16:54:56 - [INFO] - Сообщение о самых популярных направлениях отправлено
+2025-03-17 16:54:57 - [INFO] - Update id=317271087 is handled. Duration 8921 ms by bot id=7258438370
+2025-03-17 16:56:10 - [INFO] - Polling stopped
+2025-03-17 16:56:10 - [INFO] - Polling stopped for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 17:13:29 - [INFO] - Бот успешно запущен
+2025-03-17 17:13:29 - [INFO] - Start polling
+2025-03-17 17:13:30 - [INFO] - Run polling for bot @aeroflights_bot id=7258438370 - 'flight_bot'
+2025-03-17 17:13:32 - [INFO] - Update id=317271088 is handled. Duration 562 ms by bot id=7258438370
+2025-03-17 17:13:35 - [INFO] - Update id=317271089 is handled. Duration 156 ms by bot id=7258438370
+2025-03-17 17:13:41 - [INFO] - Update id=317271090 is handled. Duration 3217 ms by bot id=7258438370
+2025-03-17 17:13:45 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:13:45 - [INFO] - Update id=317271091 is handled. Duration 1328 ms by bot id=7258438370
+2025-03-17 17:13:48 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:13:48 - [INFO] - Update id=317271092 is handled. Duration 562 ms by bot id=7258438370
+2025-03-17 17:13:51 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:13:51 - [INFO] - Сообщение об авиабилетах отправлено
+2025-03-17 17:13:51 - [INFO] - Update id=317271093 is handled. Duration 1202 ms by bot id=7258438370
+2025-03-17 17:13:56 - [WARNING] - Некорректно введено название месяца: аоаооааооа
+2025-03-17 17:13:56 - [INFO] - Update id=317271095 is handled. Duration 93 ms by bot id=7258438370
+2025-03-17 17:13:57 - [INFO] - Update id=317271094 is handled. Duration 3234 ms by bot id=7258438370
+2025-03-17 17:14:02 - [WARNING] - IATA-код не найден для "адааддада"
+2025-03-17 17:14:02 - [WARNING] - Город "адааддада" не найден
+2025-03-17 17:14:02 - [INFO] - Update id=317271096 is handled. Duration 906 ms by bot id=7258438370
+2025-03-17 17:14:19 - [INFO] - Update id=317271097 is handled. Duration 422 ms by bot id=7258438370
+2025-03-17 17:14:24 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:25 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:26 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:26 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:27 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:27 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:28 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:28 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:29 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:29 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:30 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:30 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:31 - [INFO] - Код ответа: 200. Данные получены
+2025-03-17 17:14:31 - [INFO] - Сообщение о самых популярных направлениях отправлено
+2025-03-17 17:14:31 - [INFO] - Update id=317271098 is handled. Duration 8172 ms by bot id=7258438370
+2025-03-17 17:20:28 - [INFO] - Polling stopped
+2025-03-17 17:20:28 - [INFO] - Polling stopped for bot @aeroflights_bot id=7258438370 - 'flight_bot'
