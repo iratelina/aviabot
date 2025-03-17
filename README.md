@@ -16,10 +16,10 @@
 
 ## 🛠 Установка и запуск
 
-### 1️. Клонирование репозитория
+### 1. Клонирование репозитория
 
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/aviabot.git
+cd aviabot
 
 ### 2. Создание виртуального окружения
 python -m venv venv
