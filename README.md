@@ -45,6 +45,14 @@ python bot.py
 - Популярные направления — введите /popular_directions и укажите город.
 - Поиск билетов — выполните /find_tickets и следуйте инструкциям.
 
+## Пример работы бота:
+![image](https://github.com/user-attachments/assets/c08a4ee3-4665-4a7e-904c-594942a7b40e)
+
+![image](https://github.com/user-attachments/assets/2f62e7e1-3c35-47af-b247-853df4a11f5c)
+
+![image](https://github.com/user-attachments/assets/2c22b702-9b11-4293-933c-3779ee9c165d)
+
+
 Автор: Ермакова Полина Андреевна
 
 Номер ИСУ: 336556
